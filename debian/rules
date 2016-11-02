@@ -9,7 +9,7 @@ override_dh_clean:
 override_dh_auto_test:
 
 override_dh_auto_configure:
-	touch -d "2014-04-29 12:00" `cat debian/modified-files.txt`
+	touch -r configure.ac `cat debian/modified-files.txt`
 	dh_auto_configure -- --enable-static
 
 override_dh_auto_build:
