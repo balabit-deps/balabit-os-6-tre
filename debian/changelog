@@ -1,3 +1,18 @@
+tre (0.8.0-4+deb8u1build0.16.04.1) xenial-security; urgency=medium
+
+  * fake sync from Debian
+
+ -- Mike Salvatore <mike.salvatore@canonical.com>  Tue, 06 Nov 2018 14:35:33 -0500
+
+tre (0.8.0-4+deb8u1) jessie; urgency=medium
+
+  * Add debian/patches/03-cve-2016-8859 to fix CVE-2016-8859.
+    Patch borrowed from wheezy LTS. Closes: #842169.
+  * Add locales-all to Build-Depends, required to run the test suite.
+  * Add debian/clean with files generated/modified during the build.
+
+ -- Santiago Vila <sanvila@debian.org>  Mon, 28 Nov 2016 00:31:36 +0100
+
 tre (0.8.0-4) unstable; urgency=medium
 
   * I'm having a déjà vu.

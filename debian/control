@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Santiago Vila <sanvila@debian.org>
 Uploaders: Milan Zamazal <pdm@debian.org>
 Standards-Version: 3.9.5
-Build-Depends: gettext (>= 0.18.1.1-8), debhelper (>= 9)
+Build-Depends: gettext (>= 0.18.1.1-8), debhelper (>= 9), locales-all
 
 Package: libtre5
 Architecture: any
