@@ -1,3 +1,9 @@
+tre (0.8.0-4+deb8u1build0.16.04.1bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Wed, 07 Nov 2018 09:23:23 +0100
+
 tre (0.8.0-4+deb8u1build0.16.04.1) xenial-security; urgency=medium
 
   * fake sync from Debian
